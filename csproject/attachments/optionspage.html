@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://www.w3schools.com/w3css/tryw3css_templates_restaurant_modal.htm -->
+<html><head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+
+
+ background-repeat: repeat-x;
+ height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:device-width;
+ 
+    background-image: url(bg6.png);
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #EC7063  ;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: none;
+}
+img{
+height:80px;
+width:300px;
+}
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #EC7063  ;
+  padding: 20px; 
+  width: 200px;
+  height: 200px;  
+}
+.menu {
+  width: 80px;
+  height: 80px;
+     background:#AED6F1    ;
+  font-family:Raleway;
+  -webkit-transition: width .3s; /* For Safari 3.1 to 6.0 */
+  transition: width .3s;
+}
+
+.menu:hover {
+  width: 150px;
+  background:#AED6F1    ;
+}
+h1{
+font-family:Raleway;}
+#div1 {
+  font-size:48px;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="bgimg w3-display-container w3-text-white">
+
+<br><br><br>
+<a href="prog1.html"><div class="menu"><p>Take me back home!</p></div></a>
+
+<br>
+     <center>
+	 <h1>WHAT BRINGS YOU HERE?</h1>
+	 
+<div id="div1" class="fa"></div>
+
+<script>
+
+function smile() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf118;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf11a;";
+    }, 1000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf119;";
+    }, 2000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf11a;";
+    }, 3000);
+}
+smile();
+setInterval(smile, 4000);
+</script>
+<br><br>
+ <a href="www.google.com"><img src="happy.png" alt="" style="width:50 height:50"/></a>
+    <br><br>
+	<a href="www.google.com"><img src="fear.png" alt="" style="width:50 height:50"/></a>
+	<br><br>
+	<a href="www.google.com"><img src="sorrow.png" alt="" style="width:50 height:50"/></a>
+    <br><br>
+	<a href="www.google.com"><img src="anger.png" alt="" style="width:50 height:50"/></a>
+</center>
+  
+
+
+
+</body></html>

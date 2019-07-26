@@ -1,0 +1,53 @@
+<a href="#" class="featured text-center animate-box" style="background-image: url(images/q11.png);">
+						<div class="desc">
+							<h3>Importance of adaptability</h3>
+							<span class="category"></span>
+						</div>
+						
+						
+							<div class="flexslider animate-box">
+						<ul class="slides">
+					   	<li style="background-image: url(images/q10.png);">
+					   		<div class=""></div>
+					   		<div class="container-fluid">
+					   			<div class="row">
+						   			<div class="col-md-10 col-md-offset-1 slider-text">
+						   				<div class="slider-text-inner">
+										
+												
+												<p class="ct"><a href="#">Learn More <i class="icon-arrow-right"></i></a></p>
+						   				</div>
+						   			</div>
+						   		</div>
+					   		</div>
+					   	</li>
+					   	<li style="background-image: url(images/q2.png);">
+					   		<div class="overlay-gradient"></div>
+					   		<div class="container-fluid">
+					   			<div class="row">
+						   			<div class="col-md-10 col-md-offset-1 slider-text">
+						   				<div class="slider-text-inner">
+						   					<h1>Minimal &amp; Clean Blog WordPress</h1>
+												
+												<p class="ct"><a href="#">Learn More <i class="icon-arrow-right"></i></a></p>
+						   				</div>
+						   			</div>
+						   		</div>
+					   		</div>
+					   	</li>
+					   	<li style="background-image: url(images/q3.png);">
+					   		<div class="overlay-gradient"></div>
+					   		<div class="container-fluid">
+					   			<div class="row">
+						   			<div class="col-md-10 col-md-offset-1 slider-text">
+						   				<div class="slider-text-inner">
+						   					<h1>What Would You Like To Learn?</h1>
+												
+												<p class="ct"><a href="#">Learn More <i class="icon-arrow-right"></i></a></p>
+						   				</div>
+						   			</div>
+						   		</div>
+					   		</div>
+					   	</li>		   	
+					  	</ul>
+				  	</div>
